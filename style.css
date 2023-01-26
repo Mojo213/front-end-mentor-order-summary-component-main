@@ -1,0 +1,87 @@
+body{
+    margin-bottom: 0;
+    font-family: 'Red Hat Display', sans-serif;
+    background-image: url(/images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: hsl(224, 23%, 55%)
+}
+
+
+.top-section{
+   display: flex;
+   justify-content: center; 
+}
+
+.top-section > img {
+ border-radius: 20px 20px 0 0;
+}
+
+.bottom-section {
+display: flex;
+justify-content: center;
+}
+
+.bottom-section > div{
+    width: 447px;
+    height: 450px;
+    border: 1px solid whitesmoke;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 0px 0px 20px 20px;
+
+}
+
+.bottom-section > div > h1 {
+    text-align: center;
+}
+.bottom-section > div > p {
+    font-size: 16px;
+    text-align: center;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.gray-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e9ecef;
+    border-radius: 10px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 25px;
+    justify-content: space-around;
+}
+
+p{
+    color: gray;
+}
+
+.gray-section > div > h4 {
+    margin-bottom: 5px;
+}
+  
+.gray-section > div > p {
+    margin-top: 5px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    
+}
+
+button{
+    width: 307px;
+    padding:0;
+    border:0;
+    border-radius: 10px;
+    color: white;
+    background-color: #3f37c9;
+    box-shadow: 5px 5px 11px 3px rgba(181, 181, 181, 0.8);
+}
+
+.cancel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
